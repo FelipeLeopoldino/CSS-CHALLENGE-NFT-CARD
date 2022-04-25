@@ -1,1 +1,1 @@
-<a href="https://nftcard-felipeleopoldino.netlify.app/">https://nftcard-felipeleopoldino.netlify.app/</a>
+<a href="https://nftcard-felipeleopoldino.netlify.app/">NFT Card</a>
