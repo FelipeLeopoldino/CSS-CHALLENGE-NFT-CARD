@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;300;400&display=swap');
+
+/* Reset */
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    --soft-blue: hsl(215, 51%, 70%);
+    --cyan: hsl(178, 100%, 50%);
+    --main-BG: hsl(217, 54%, 11%);
+    --card-BG: hsl(216, 50%, 16%);
+    --line: hsl(215, 32%, 27%);
+    --white: hsl(0, 0%, 100%);
+    --font-size: 18px;
+    --font-familly: 'outfit', sans-serif;
+
+}
+
+body {
+    /* border: 1px solid red; */
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: var(--main-BG);
+    font-family: var(--font-familly);
+    font-size: var(--font-size);
+
+
+}
+
+.card {
+
+    background: var(--card-BG);
+    padding: 30px;
+    width: 660px;
+    border-radius: 30px;
+}
+
+img {
+
+    width: 100%;
+    border-radius: 20px;
+}
+
+#foto:hover:after{
+   
+    background: url(../images/icon-view.svg) no-repeat;
+    /* position: absolute; */
+    width: 48px;
+    height: 48px; 
+    z-index: 10;
+    background: var(--cyan);
+        
+}
+a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 30px;
+    font-weight: 600;
+}
+
+a:hover{
+    
+    color: var(--cyan);
+}
+h2 {
+    margin-top: 20px;
+    color: var(--soft-blue);
+    font-weight: 300;
+    
+}
+
+h3 {
+    display: flex;
+    justify-content: space-between;
+    color: var(--cyan);
+}
+
+.ether {
+
+    display: inline-flex;
+    margin-top: 30px;
+    align-items: center;
+    
+    
+}
+
+#ether {
+    height: 18px;
+    width: 11px;
+    margin-right: 5px;
+}
+
+.days{
+    margin-left: 365px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+p{  
+
+    color: var(--soft-blue);
+
+}
+
+#clock{
+
+    height: 17px;
+    width: 17px;
+    margin-right: 5px;
+}
+
+
+.line{
+
+    color: var(--line);
+    margin-top: 20px;
+    align-items: center;
+    display: flex;
+}
+
+.creation{
+
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+
+}
+.avatar{
+
+    height: 40px;
+    width: 40px;
+    padding: 1px;
+    margin-right: 20px;
+    background: var(--white);
+    
+    
+}
+
+.name{
+
+    color: var(--white);
+    margin-left: 5px;
+    font-size: 18px;
+    font-weight: 400;
+
+}
+
+.name:hover{
+    color: var(--cyan);
+}
+
+.attribution { 
+    
+    font-size: 11px;
+    text-align: center;
+    margin-top: 20px; 
+}
+.attribution a { 
+    
+    color: hsl(228, 45%, 44%); 
+}
