@@ -38,7 +38,7 @@ body {
 
     background: var(--card-BG);
     padding: 30px;
-    width: 660px;
+    width: 340px;
     border-radius: 30px;
 }
 
@@ -46,6 +46,7 @@ img {
 
     width: 100%;
     border-radius: 20px;
+    margin-bottom: 20px;
 }
 
 #foto:hover:after{
@@ -58,10 +59,22 @@ img {
     background: var(--cyan);
         
 }
+
+.sub-titulo{
+    margin-top: 10px;
+    color: var(--soft-blue);
+    font-size: 15px;
+}
+
+/* .eth{
+
+    font-size: 15px;
+} */
+
 a {
     text-decoration: none;
     color: var(--white);
-    font-size: 30px;
+    
     font-weight: 600;
 }
 
@@ -69,45 +82,35 @@ a:hover{
     
     color: var(--cyan);
 }
-h2 {
-    margin-top: 20px;
-    color: var(--soft-blue);
-    font-weight: 300;
-    
-}
-
-h3 {
-    display: flex;
-    justify-content: space-between;
-    color: var(--cyan);
-}
 
 .ether {
 
-    display: inline-flex;
-    margin-top: 30px;
-    align-items: center;
-    
-    
-}
-
-#ether {
-    height: 18px;
-    width: 11px;
-    margin-right: 5px;
-}
-
-.days{
-    margin-left: 365px;
     display: flex;
-    align-items: center;
-    
+    text-align: center;
+    margin-top: 10px;
     
 }
-p{  
 
+.eth{
+    font-size: 15px;
+    margin-left: 5px;
+    color: var(--cyan);
+}
+.etherium{
+    width: 11px;
+    height: 18px;
+}
+.days{
+    display: flex;
+    text-align: center;
+    
+    margin-left: 90px;
+    
+}
+
+.day3{
+    font-size: 15px;
     color: var(--soft-blue);
-
 }
 
 #clock{
@@ -121,20 +124,27 @@ p{
 .line{
 
     color: var(--line);
-    margin-top: 20px;
+    margin-top: px;
     align-items: center;
     display: flex;
 }
 
 .creation{
 
-    display: flex;
+    display: inline-flex;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 15px;
     align-items: center;
-    margin-top: 20px;
+    
+}
 
+.criador{
+    
+    color: var(--soft-blue);
 }
 .avatar{
-
+    
     height: 40px;
     width: 40px;
     padding: 1px;
@@ -148,7 +158,7 @@ p{
 
     color: var(--white);
     margin-left: 5px;
-    font-size: 18px;
+    
     font-weight: 400;
 
 }
@@ -157,13 +167,3 @@ p{
     color: var(--cyan);
 }
 
-.attribution { 
-    
-    font-size: 11px;
-    text-align: center;
-    margin-top: 20px; 
-}
-.attribution a { 
-    
-    color: hsl(228, 45%, 44%); 
-}
